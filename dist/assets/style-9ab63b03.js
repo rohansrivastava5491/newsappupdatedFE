@@ -1,0 +1,1 @@
+import{r as t}from"./react-e18f0737.js";const V=()=>{const[l,r]=t.useState(!1),[n,o]=t.useState(!1),[c,d]=t.useState(!1);return{isUpperCaseValid:l,isSpecialCharValid:n,isLengthValid:c,validatePassword:s=>{const e=/[A-Z]/.test(s),a=/[!@#$%^&*]/.test(s),i=s.length>=8;return r(e),o(a),d(i),e&&a&&i}}};export{V as u};
